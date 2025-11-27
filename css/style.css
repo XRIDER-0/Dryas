@@ -10,6 +10,9 @@ click on get Embedded code button, check @import
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 .wrapper{
     width: 100%;
     height: auto;
@@ -61,6 +64,10 @@ click on get Embedded code button, check @import
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 900;
+    transition: color 0.3s ease
+}
+.header .menu ul li a:hover{
+    color: white;
 }
 .slideTitle{
     position: absolute;
