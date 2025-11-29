@@ -49,8 +49,12 @@ html{
 }
 .header .logo a{
     text-decoration: none;
-    color: #000000;
+    color: white;
+    text-shadow: 10px black;
     /* font-family: "Dancing Script", cursive; */
+}
+.header .logo a:hover{
+    color: #000000;
 }
 .header .menu ul li{
     list-style: none;
@@ -97,7 +101,7 @@ html{
 }
 .collection img{
     object-fit: cover;
-    border-radius: 30%;
+    border-radius: 50%;
 }
 /* about section */
 .milo{
@@ -373,14 +377,9 @@ align-items: center;
         display: none;
     }
 }
-/* @media(max-width: 1115px){
-    .collection{
-        /* width: 950px; 
-    }
-    .collection img{
-        font-size: 30px;  
-    }
-} */
+
+
+
  @media(max-width: 835px){
     p.content-desc{
     max-width: 100%;
@@ -398,4 +397,14 @@ align-items: center;
         padding: 10px;
     }
 
+ }
+ @media(max-width: 470px){
+    .latest-images img{
+        width: 250px;
+        height: 250px;        
+    }
+    .collection img{
+        width: 277px;
+        height: 277px;
+    }    
  }
